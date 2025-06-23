@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI||'mongodb://127.0.0.1:27017/feedback-app');
+    await mongoose.connect(process.env.MONGO_URI||'mongodb+srv://yashkataraei:<N0c8fVBfCsblvo7d>@cluster0.qt5rwin.mongodb.net/');
     console.log('MongoDB Connected');
   } catch (err) {
     console.error(err.message);
