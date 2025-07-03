@@ -1,5 +1,5 @@
 const Feedback = require('../models/Feedback');
-const { getAIResponse } = require('../services/geminiService'); // <-- updated
+const { getAIResponse } = require('../services/geminiService'); /
 
 exports.getFeedback = async (req, res) => {
   const { response } = req.body;
